@@ -92,3 +92,21 @@ a.acti {
 .tab {
     display: none;
 }
+
+.botoom-item {
+    border: 1px solid black;
+    widows: 100%;
+    height: 37%;
+    position: relative;
+}
+
+.botoom-item p {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0px;
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    opacity: 0.4;
+}
