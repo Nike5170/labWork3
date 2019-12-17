@@ -1,0 +1,21 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    border: 1px solid black;
+    background-color: #a7c3fb;
+    padding: 1vh;
+    height: 9%;
+}
+
+a.acti {
+    border-width: 1px 0px;
+    background-color: #cd85fb;
+}
