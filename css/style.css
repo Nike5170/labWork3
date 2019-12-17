@@ -19,3 +19,25 @@ a.acti {
     border-width: 1px 0px;
     background-color: #cd85fb;
 }
+
+.wrapper,
+.content-wrap,
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    width: 1000px;
+    height: 80vh;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.content-wrap {
+    width: 100%;
+    height: 85%;
+    border: 1px solid black;
+    margin-top: auto;
+    margin-bottom: 0;
+}
